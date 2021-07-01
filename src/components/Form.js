@@ -3,6 +3,7 @@ import React, { useState } from "react";
 const Form = (props) => {
   const { setTodoArray } = props;
   const [todoText, setTodoText] = useState("");
+  // const {todoText, setTodoText} = useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
     const newTodo = {
